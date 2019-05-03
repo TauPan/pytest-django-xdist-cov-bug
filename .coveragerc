@@ -1,2 +1,4 @@
 [run]
 include = proj
+plugins =
+    django_coverage_plugin

@@ -11,6 +11,7 @@ pytest-cov = "*"
 
 [packages]
 django = "==1.11"
+django-coverage-plugin = "*"
 
 [requires]
 python_version = "3.4"
