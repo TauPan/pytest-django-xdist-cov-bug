@@ -4,5 +4,5 @@ register = template.Library()
 
 
 @register.simple_tag
-def add(*args):
-    return "The answer is {}.".format(sum(args, 0))
+def add(args):
+    return "The answer is {}.".format(sum([int(n) for n in args], 0))

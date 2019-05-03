@@ -6,4 +6,4 @@ pytestmark = [pytest.mark.django_db]
 
 
 def test_add_tag():
-    assert tags.add(3, 5) == 'The answer is 8.'
+    assert tags.add([3, 5]) == 'The answer is 8.'

@@ -5,4 +5,4 @@ from django.shortcuts import render
 
 def home(request):
     return render(request, 'home.html',
-                  dict(args=request.GET['args[]']))
+                  dict(args=request.GET.getlist('args[]')))
