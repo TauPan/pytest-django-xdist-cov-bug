@@ -10,7 +10,7 @@ pytest-xdist = "*"
 pytest-cov = "*"
 
 [packages]
-django = "==1.11"
+django = "*"
 django-coverage-plugin = "*"
 
 [requires]
