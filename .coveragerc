@@ -1,4 +1,5 @@
 [run]
-include = proj
+include = proj/*, proj/**/*
+omit = */tests/*, */migrations/*, *conftest.py, *setup.py, *settings*.py
 plugins =
     django_coverage_plugin
