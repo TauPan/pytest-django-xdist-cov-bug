@@ -1,5 +1,5 @@
 # pytest-django-xdist-cov-bug
-Reproducing https://github.com/pytest-dev/pytest-cov/issues/285
+Reproducing https://github.com/nedbat/django_coverage_plugin/issues/63 (formerly https://github.com/pytest-dev/pytest-cov/issues/285 )
 
  - Install pipenv: https://docs.pipenv.org/en/latest/#install-pipenv-today
  - Install dependencies: `pipenv sync --dev`
